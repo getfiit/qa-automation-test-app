@@ -20,14 +20,31 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func login(_ sender: Any) {
-        guard viewModel.isCredentialsAvailable(username: email.text, password: password.text) else { return }
+        guard viewModel.isCredentialsAvailable(username: email.text, password: password.text) else {
+            displayError()
+            return
+        }
         let storyboard = UIStoryboard(name: "ListWorkouts", bundle:nil)
         let nextViewController = storyboard.instantiateViewController(withIdentifier: "ListWorkouts") as! ListWorkoutsViewcontroller
         self.navigationController?.pushViewController(nextViewController, animated: true)
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        email.text = nil
+        password.text = nil
+        checkEnableButton()
+    }
+    
     private func checkEnableButton() {
         login.isEnabled = !(email.text?.isEmpty ?? true) && !(password.text?.isEmpty ?? true)
+    }
+    
+    private func displayError() {
+        let alertController = UIAlertController(title: "Error", message: "Wrong credentials", preferredStyle: .alert)
+        let alertaction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alertController.addAction(alertaction)
+        self.present(alertController, animated: true, completion: nil)
     }
 }
 

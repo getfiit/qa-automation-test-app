@@ -15,10 +15,16 @@ class ListWorkoutsViewcontroller: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = viewModel.screenTitle
+        tableView.rowHeight = 100
+        navigationItem.setHidesBackButton(true, animated: true)
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         title = viewModel.screenTitle
+    }
+    
+    @IBAction func logout(_ sender: Any) {
+        self.navigationController?.popToRootViewController(animated: true)
     }
 }
 
@@ -33,6 +39,7 @@ extension ListWorkoutsViewcontroller {
         let cellViewModel = viewModel.cellViewModelAtIndexPath(indexPath)
         cell.textLabel?.text = cellViewModel?.title
         cell.detailTextLabel?.text = cellViewModel?.subtitle
+        cell.imageView?.image = nil
         cell.imageView?.load(url: cellViewModel?.urlImage)
         return cell
     }

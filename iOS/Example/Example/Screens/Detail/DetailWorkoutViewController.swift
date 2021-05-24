@@ -25,5 +25,8 @@ class DetailWorkoutViewController: UIViewController {
         duration.text = viewModel.duration
         desc.text = viewModel.description
     }
+    @IBAction func logout(_ sender: Any) {
+        self.navigationController?.popToRootViewController(animated: true)
+    }
     
 }

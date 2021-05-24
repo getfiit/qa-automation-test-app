@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8iU-Ck-BHI">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="722"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jw7-55-d3y" userLabel="Container">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="343.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="348"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="rqf-ii-8fw">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="250"/>
@@ -29,20 +29,20 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yp8-kE-l20">
-                                                <rect key="frame" x="20" y="258" width="374" height="27"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                                <rect key="frame" x="20" y="258" width="374" height="29"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhT-QI-PaH">
-                                                <rect key="frame" x="20" y="293" width="374" height="21"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <rect key="frame" x="20" y="295" width="374" height="21"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXJ-mY-Wik">
-                                                <rect key="frame" x="20" y="322" width="374" height="21.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <rect key="frame" x="20" y="324" width="374" height="24"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -83,6 +83,13 @@
                             <constraint firstItem="jw7-55-d3y" firstAttribute="width" secondItem="68R-NI-Owe" secondAttribute="width" id="wxC-Kr-6Z1"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Agz-gX-K32">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" id="ErI-St-ylV">
+                            <connections>
+                                <action selector="logout:" destination="Y6W-OH-hqX" id="ilE-30-n8h"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="cover" destination="rqf-ii-8fw" id="82O-aF-274"/>
                         <outlet property="desc" destination="lXJ-mY-Wik" id="dSK-1N-m8N"/>
@@ -91,6 +98,24 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="130.58035714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="U3C-Yv-Zh0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Gvs-Gz-Rjx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="wQp-yy-8Ff">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="PRQ-rD-wc2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lje-5d-oVf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="130.58035714285714"/>
         </scene>

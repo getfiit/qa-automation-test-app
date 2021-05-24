@@ -39,6 +39,46 @@
       "difficulty": "Beginner",
       "description": "Convallis aenean et tortor at. Lectus proin nibh nisl condimentum id. Volutpat maecenas volutpat blandit aliquam etiam. Metus aliquam eleifend mi in nulla. Tortor at auctor urna nunc id cursus. Tempor commodo ullamcorper a lacus vestibulum sed arcu. Aenean vel elit scelerisque mauris. Nulla posuere sollicitudin aliquam ultrices sagittis. Et tortor consequat id porta nibh. Aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin. Eget dolor morbi non arcu risus quis varius quam. Ornare arcu odio ut sem. Ipsum dolor sit amet consectetur adipiscing elit duis. Donec ultrices tincidunt arcu non. Sit amet est placerat in egestas.",
       "imageUrl": "https://unsplash.com/photos/gJtDg6WfMlQ/download?force=true&w=640"
+    },
+    {
+      "id": 6,
+      "name": "Dumbbell #66",
+      "duration": "40min",
+      "difficulty": "Advanced",
+      "description": "Sed in orci turpis. Praesent faucibus pellentesque mauris in consectetur. Praesent sollicitudin tortor non felis viverra, id vestibulum turpis laoreet. Vestibulum sit amet ipsum a orci tristique luctus ac non magna. Praesent ac nunc ex. Nulla at dui ac ante porta semper vitae non odio. Maecenas et pulvinar velit, eget finibus justo. Sed sit amet nibh et diam fringilla convallis aliquam et sem. Aliquam ut ullamcorper nulla, eu condimentum lacus. Nulla aliquam, lectus vel varius fermentum, velit eros suscipit purus, ut tempus tellus elit quis velit. Nullam ornare ut dolor non luctus. Nullam sapien elit, aliquam sit amet diam quis, accumsan lobortis turpis. Donec nec neque justo. Morbi faucibus at ligula at imperdiet. Duis viverra erat massa. Nullam eu tincidunt sapien, sit amet consectetur quam.",
+      "imageUrl": "https://unsplash.com/photos/FP7cfYPPUKM/download?force=true&w=640"
+    },
+    {
+      "id": 7,
+      "name": "Superman #99",
+      "duration": "90min",
+      "difficulty": "Advanced",
+      "description": "Aliquam semper ac nisl non euismod. Nulla congue euismod metus, ac auctor risus cursus in. Nullam ornare imperdiet nisi, pulvinar gravida mauris rhoncus non. Ut in justo erat. Curabitur euismod justo vitae erat semper, sit amet finibus elit consectetur. Nam nec elit et lectus ullamcorper varius sed non libero. Quisque consequat non nibh non molestie. Nullam eget tellus a felis gravida vulputate. Maecenas suscipit consequat consectetur. Proin aliquam fermentum congue.",
+      "imageUrl": "https://unsplash.com/photos/tj27cwu86Wk/download?force=true&w=640"
+    },
+    {
+      "id": 8,
+      "name": "Relax #33",
+      "duration": "25min",
+      "difficulty": "Beginner",
+      "description": "Integer feugiat metus a mi scelerisque interdum. Morbi iaculis convallis nibh, ultrices congue nulla laoreet sed. Suspendisse efficitur tortor ac sodales fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed tempor ipsum. Aliquam at pretium felis. Nam semper eros sit amet neque interdum posuere. Morbi pulvinar nisl vel ligula imperdiet gravida sit amet quis nisi. Proin nibh risus, fringilla eget dui vel, tristique pharetra magna. Nam fringilla sed nisl vel tristique. Sed pharetra, enim sed vestibulum vestibulum, mi sem consequat sem, vel tristique nisi elit id tellus. Nullam sed interdum metus, eu ultrices lectus. Aenean at turpis mauris. In vitae nisi in dolor egestas gravida.",
+      "imageUrl": "https://unsplash.com/photos/pFyKRmDiWEA/download?force=true&w=640"
+    },
+    {
+      "id": 9,
+      "name": "Pilates #11",
+      "duration": "60min",
+      "difficulty": "Intemediate",
+      "description": "Nullam viverra justo a leo elementum maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Praesent gravida egestas velit quis gravida. In vel tristique dolor. Ut eget facilisis urna. Curabitur imperdiet vehicula risus id convallis. Aenean ac lectus vitae justo congue maximus. Praesent dictum dui eros, vel auctor sapien pharetra mattis. Nunc gravida cursus est, et maximus orci scelerisque a. Aenean tincidunt dignissim dolor sit amet iaculis. Aliquam suscipit condimentum felis ac rhoncus. Sed nec urna ut odio lacinia finibus non ut lectus. Maecenas congue nisi a risus tincidunt fringilla.",
+      "imageUrl": "https://unsplash.com/photos/oLStrTTMz2s/download?force=true&w=640"
+    },
+    {
+      "id": 10,
+      "name": "Monster #46",
+      "duration": "90min",
+      "difficulty": "All levels",
+      "description": "Nunc mollis et nisi a viverra. Phasellus porttitor turpis nec sagittis porta. Quisque a libero ut turpis pellentesque fringilla vitae vitae mauris. Aenean commodo non tellus vitae faucibus. Nullam erat augue, finibus volutpat ex id, tincidunt dapibus nisl. Pellentesque blandit, sem eget consequat accumsan, risus lorem venenatis nibh, vitae pharetra velit odio at turpis. Nunc vulputate aliquam odio at lobortis. Aliquam eget dolor sit amet nunc molestie elementum. Sed non venenatis velit. In ut libero orci. Cras molestie, nibh a gravida viverra, urna ante egestas dui, et iaculis magna libero at erat. Aliquam sed euismod mauris. Morbi hendrerit augue sit amet justo suscipit porta. Duis commodo mi at risus mattis gravida. Maecenas sit amet ultricies massa.",
+      "imageUrl": "https://unsplash.com/photos/Vz0RbclzG_w/download?force=true&w=640"
     }
   ]
 }
