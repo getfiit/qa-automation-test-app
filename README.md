@@ -18,7 +18,16 @@ The applications are made up of 3 screens. The Login screen, the Main screen and
 
 - The details screen shows a more detailed view of the clicked item
 
+# Test Cases For Part 1
+
+1. Check Fiit logo is displayed
+2. Login successfully
+3. Login, scroll to the bottom of the list, select last item and make sure it opens the right content
+
 # Your Task
 
-1. Automate the following test cases provided
+1. Automate the test cases provided above
 2. Provide any additional automation that is not covered by these test cases
+
+- this test should take you 2 days to complete
+- please fork this repo and provide your solution on your github account
